@@ -1,0 +1,15 @@
+data_ingestion:
+  train_ratio : 0.8
+  
+data_processing:
+  categorical_columns:
+    - type
+  numerical_columns:
+    - step, 
+    - amount, 
+    - oldbalanceOrg, 
+    - newbalanceOrig, 
+    - oldbalanceDest, 
+    - isFraud, 
+    - isFlaggedFraud
+  no_of_features: 5

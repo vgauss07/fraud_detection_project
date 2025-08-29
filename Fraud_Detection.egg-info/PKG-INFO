@@ -1,0 +1,17 @@
+Metadata-Version: 2.4
+Name: Fraud-Detection
+Version: 0.1
+Author: Jeffrey Voke Ojuederhie
+Requires-Dist: pandas
+Requires-Dist: numpy
+Requires-Dist: scikit-learn
+Requires-Dist: flask
+Requires-Dist: joblib
+Requires-Dist: mlflow
+Requires-Dist: seaborn
+Requires-Dist: matplotlib
+Requires-Dist: setuptools
+Requires-Dist: kfp
+Requires-Dist: imbalanced-learn
+Dynamic: author
+Dynamic: requires-dist

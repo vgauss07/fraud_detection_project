@@ -1,0 +1,14 @@
+artifact_uri: file:///Users/rev.dr.sylviablessings/fraud_detection/mlruns/0/322eff54c5354c5cbeb6d89aadeb8b4f/artifacts
+end_time: 1756435408136
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 322eff54c5354c5cbeb6d89aadeb8b4f
+run_name: glamorous-rat-451
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1756421659595
+status: 4
+tags: []
+user_id: rev.dr.sylviablessings

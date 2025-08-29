@@ -1,0 +1,30 @@
+2025-08-28 17:01:54,627 - INFO - Starting Model Training Pipeline
+2025-08-28 17:01:54,627 - INFO - Start MLFlow Experimentation Tracking
+2025-08-28 17:01:54,628 - INFO - Logging the training and testing the dataset to MLFLOW
+2025-08-28 17:01:55,476 - INFO - Loading data from artifacts/processed/processed_train.csv
+2025-08-28 17:01:55,476 - INFO - Loading data
+2025-08-28 17:02:00,558 - INFO - Loading data from artifacts/processed/processed_test.csv
+2025-08-28 17:02:00,558 - INFO - Loading data
+2025-08-28 17:02:02,084 - INFO - Data split done successfully
+2025-08-28 17:02:02,113 - INFO - Initializing our model
+2025-08-28 17:02:02,113 - INFO - Starting Hyperparameter Tuning
+2025-08-28 18:54:19,619 - INFO - Starting Model Training Pipeline
+2025-08-28 18:54:19,619 - INFO - Start MLFlow Experimentation Tracking
+2025-08-28 18:54:19,619 - INFO - Logging the training and testing the dataset to MLFLOW
+2025-08-28 18:54:20,724 - INFO - Loading data from artifacts/processed/processed_train.csv
+2025-08-28 18:54:20,725 - INFO - Loading data
+2025-08-28 18:54:26,212 - INFO - Loading data from artifacts/processed/processed_test.csv
+2025-08-28 18:54:26,214 - INFO - Loading data
+2025-08-28 18:54:27,778 - INFO - Data split done successfully
+2025-08-28 18:54:27,803 - INFO - Initializing our model
+2025-08-28 18:54:27,803 - INFO - Starting Hyperparameter Tuning
+2025-08-28 22:44:53,215 - INFO - Starting Model Training Pipeline
+2025-08-28 22:44:53,215 - INFO - Start MLFlow Experimentation Tracking
+2025-08-28 22:44:53,215 - INFO - Logging the training and testing the dataset to MLFLOW
+2025-08-28 22:44:53,899 - INFO - Loading data from artifacts/processed/processed_train.csv
+2025-08-28 22:44:53,899 - INFO - Loading data
+2025-08-28 22:44:58,594 - INFO - Loading data from artifacts/processed/processed_test.csv
+2025-08-28 22:44:58,594 - INFO - Loading data
+2025-08-28 22:45:00,091 - INFO - Data split done successfully
+2025-08-28 22:45:00,113 - INFO - Initializing our model
+2025-08-28 22:45:00,113 - INFO - Starting Hyperparameter Tuning

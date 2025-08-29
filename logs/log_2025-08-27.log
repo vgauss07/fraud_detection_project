@@ -1,0 +1,107 @@
+2025-08-27 00:32:46,924 - INFO - Successfully read the YAML file
+2025-08-27 00:32:46,924 - INFO - Loading data from from RAW directory
+2025-08-27 00:32:46,925 - INFO - Loading data
+2025-08-27 00:32:46,926 - ERROR - error loading data: [Errno 2] No such file or directory: 'artifacts/raw/train.csv'
+2025-08-27 00:32:46,926 - ERROR - Error during preprocessing pipeline, CustomException.__init__() missing 1 required positional argument: 'error_detail'
+2025-08-27 00:33:49,437 - INFO - Successfully read the YAML file
+2025-08-27 00:33:49,437 - INFO - Loading data from from RAW directory
+2025-08-27 00:33:49,437 - INFO - Loading data
+2025-08-27 00:33:49,438 - ERROR - error loading data: [Errno 2] No such file or directory: 'artifacts/raw/train.csv'
+2025-08-27 00:33:49,438 - ERROR - Error during preprocessing pipeline, CustomException.__init__() missing 1 required positional argument: 'error_detail'
+2025-08-27 01:00:47,836 - INFO - Successfully read the YAML file
+2025-08-27 01:02:25,514 - INFO - Successfully read the YAML file
+2025-08-27 01:02:25,515 - INFO - Reading and Splitting the Data
+2025-08-27 01:03:36,100 - INFO - Successfully read the YAML file
+2025-08-27 01:03:36,100 - INFO - Reading and Splitting the Data
+2025-08-27 01:05:22,006 - INFO - Successfully read the YAML file
+2025-08-27 01:05:22,006 - INFO - Reading and Splitting the Data
+2025-08-27 01:09:17,507 - INFO - Successfully read the YAML file
+2025-08-27 01:09:17,508 - INFO - Reading and Splitting the Data
+2025-08-27 01:09:17,508 - INFO - Starting data ingestion process
+2025-08-27 01:09:17,508 - INFO - Starting the Splitting Process
+2025-08-27 01:10:18,259 - INFO - Train data saved to artifacts/raw/train.csv
+2025-08-27 01:10:18,262 - INFO - Test data saved to artifacts/raw/test.csv
+2025-08-27 01:10:19,753 - INFO - Data ingestion completed successfully
+2025-08-27 01:10:19,753 - ERROR - Data Ingestion Completed
+2025-08-27 01:15:46,345 - INFO - Successfully read the YAML file
+2025-08-27 01:15:46,346 - INFO - Loading data from from RAW directory
+2025-08-27 01:15:46,346 - INFO - Loading data
+2025-08-27 01:15:56,164 - INFO - Loading data
+2025-08-27 01:15:58,542 - INFO - Start Data Processing
+2025-08-27 01:15:58,542 - INFO - Dropping the columns
+2025-08-27 01:16:04,892 - INFO - Applying Label Encoder
+2025-08-27 01:16:05,769 - INFO - Label Mappings are: 
+2025-08-27 01:16:05,770 - INFO - type: {'CASH_IN': np.int64(0), 'CASH_OUT': np.int64(1), 'DEBIT': np.int64(2), 'PAYMENT': np.int64(3), 'TRANSFER': np.int64(4)}
+2025-08-27 01:16:05,805 - INFO - Start Data Processing
+2025-08-27 01:16:05,806 - INFO - Dropping the columns
+2025-08-27 01:16:06,735 - INFO - Applying Label Encoder
+2025-08-27 01:16:06,934 - INFO - Label Mappings are: 
+2025-08-27 01:16:06,934 - INFO - type: {'CASH_IN': np.int64(0), 'CASH_OUT': np.int64(1), 'DEBIT': np.int64(2), 'PAYMENT': np.int64(3), 'TRANSFER': np.int64(4)}
+2025-08-27 01:16:06,941 - INFO - Handling the Imbalanced Data
+2025-08-27 01:16:06,941 - ERROR - Error during data balanceing step 'NoneType' object has no attribute 'drop'
+2025-08-27 01:16:06,941 - ERROR - Error during preprocessing pipeline, CustomException.__init__() missing 1 required positional argument: 'error_detail'
+2025-08-27 01:16:47,330 - INFO - Successfully read the YAML file
+2025-08-27 01:16:47,330 - INFO - Loading data from from RAW directory
+2025-08-27 01:16:47,330 - INFO - Loading data
+2025-08-27 01:16:56,307 - INFO - Loading data
+2025-08-27 01:16:58,478 - INFO - Start Data Processing
+2025-08-27 01:16:58,478 - INFO - Dropping the columns
+2025-08-27 01:17:04,060 - INFO - Applying Label Encoder
+2025-08-27 01:17:04,839 - INFO - Label Mappings are: 
+2025-08-27 01:17:04,839 - INFO - type: {'CASH_IN': np.int64(0), 'CASH_OUT': np.int64(1), 'DEBIT': np.int64(2), 'PAYMENT': np.int64(3), 'TRANSFER': np.int64(4)}
+2025-08-27 01:17:04,871 - INFO - Start Data Processing
+2025-08-27 01:17:04,871 - INFO - Dropping the columns
+2025-08-27 01:17:05,742 - INFO - Applying Label Encoder
+2025-08-27 01:17:05,940 - INFO - Label Mappings are: 
+2025-08-27 01:17:05,940 - INFO - type: {'CASH_IN': np.int64(0), 'CASH_OUT': np.int64(1), 'DEBIT': np.int64(2), 'PAYMENT': np.int64(3), 'TRANSFER': np.int64(4)}
+2025-08-27 01:17:05,947 - INFO - Handling the Imbalanced Data
+2025-08-27 01:17:05,947 - ERROR - Error during data balanceing step 'NoneType' object has no attribute 'drop'
+2025-08-27 01:17:05,947 - ERROR - Error during preprocessing pipeline, Error in /Users/rev.dr.sylviablessings/fraud_detection/src/data_processing.py, line 65 : Error while balancing data
+2025-08-27 01:40:30,909 - INFO - Successfully read the YAML file
+2025-08-27 01:40:30,909 - INFO - Loading data from from RAW directory
+2025-08-27 01:40:30,910 - INFO - Loading data
+2025-08-27 01:40:40,423 - INFO - Loading data
+2025-08-27 01:40:42,593 - INFO - Start Data Processing
+2025-08-27 01:40:42,593 - INFO - Dropping the columns
+2025-08-27 01:40:48,045 - INFO - Applying Label Encoder
+2025-08-27 01:40:48,823 - INFO - Label Mappings are: 
+2025-08-27 01:40:48,823 - INFO - type: {'CASH_IN': np.int64(0), 'CASH_OUT': np.int64(1), 'DEBIT': np.int64(2), 'PAYMENT': np.int64(3), 'TRANSFER': np.int64(4)}
+2025-08-27 01:40:48,823 - INFO - Start Data Processing
+2025-08-27 01:40:48,823 - INFO - Dropping the columns
+2025-08-27 01:40:49,687 - INFO - Applying Label Encoder
+2025-08-27 01:40:49,894 - INFO - Label Mappings are: 
+2025-08-27 01:40:49,894 - INFO - type: {'CASH_IN': np.int64(0), 'CASH_OUT': np.int64(1), 'DEBIT': np.int64(2), 'PAYMENT': np.int64(3), 'TRANSFER': np.int64(4)}
+2025-08-27 01:40:49,894 - INFO - Handling the Imbalanced Data
+2025-08-27 01:40:54,067 - INFO - Data balanced successfully
+2025-08-27 01:40:54,124 - INFO - Handling the Imbalanced Data
+2025-08-27 01:40:54,917 - INFO - Data balanced successfully
+2025-08-27 01:40:54,946 - INFO - Starting Feature Selection Process
+2025-08-27 02:57:01,512 - INFO - Features Selected: ['oldbalanceOrg' 'amount' 'newbalanceOrig' 'type' 'step']
+2025-08-27 02:57:01,513 - ERROR - Error during the feature selection step 'numpy.ndarray' object is not callable
+2025-08-27 02:57:01,514 - ERROR - Error during preprocessing pipeline, CustomException.__init__() missing 1 required positional argument: 'error_detail'
+2025-08-27 11:22:34,735 - INFO - Successfully read the YAML file
+2025-08-27 11:22:34,736 - INFO - Loading data from from RAW directory
+2025-08-27 11:22:34,736 - INFO - Loading data
+2025-08-27 11:22:44,559 - INFO - Loading data
+2025-08-27 11:22:46,898 - INFO - Start Data Processing
+2025-08-27 11:22:46,898 - INFO - Dropping the columns
+2025-08-27 11:22:52,641 - INFO - Applying Label Encoder
+2025-08-27 11:22:53,454 - INFO - Label Mappings are: 
+2025-08-27 11:22:53,460 - INFO - type: {'CASH_IN': np.int64(0), 'CASH_OUT': np.int64(1), 'DEBIT': np.int64(2), 'PAYMENT': np.int64(3), 'TRANSFER': np.int64(4)}
+2025-08-27 11:22:53,460 - INFO - Start Data Processing
+2025-08-27 11:22:53,460 - INFO - Dropping the columns
+2025-08-27 11:22:54,349 - INFO - Applying Label Encoder
+2025-08-27 11:22:54,553 - INFO - Label Mappings are: 
+2025-08-27 11:22:54,553 - INFO - type: {'CASH_IN': np.int64(0), 'CASH_OUT': np.int64(1), 'DEBIT': np.int64(2), 'PAYMENT': np.int64(3), 'TRANSFER': np.int64(4)}
+2025-08-27 11:22:54,553 - INFO - Handling the Imbalanced Data
+2025-08-27 11:22:58,867 - INFO - Data balanced successfully
+2025-08-27 11:22:58,941 - INFO - Handling the Imbalanced Data
+2025-08-27 11:22:59,751 - INFO - Data balanced successfully
+2025-08-27 11:22:59,782 - INFO - Starting Feature Selection Process
+2025-08-27 12:38:11,596 - INFO - Features Selected: ['oldbalanceOrg' 'amount' 'newbalanceOrig' 'type' 'step']
+2025-08-27 12:38:11,772 - INFO - Feature Selection Completed
+2025-08-27 12:38:12,185 - INFO - Saving processed data in processed dir
+2025-08-27 12:38:47,277 - INFO - Data saved successfully to artifacts/processed/processed_train.csv
+2025-08-27 12:38:47,277 - INFO - Saving processed data in processed dir
+2025-08-27 12:38:56,188 - INFO - Data saved successfully to artifacts/processed/processed_test.csv
+2025-08-27 12:38:56,189 - INFO - Data Processing Step Completed
