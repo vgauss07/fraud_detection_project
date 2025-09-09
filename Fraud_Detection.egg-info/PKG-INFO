@@ -2,6 +2,7 @@ Metadata-Version: 2.4
 Name: Fraud-Detection
 Version: 0.1
 Author: Jeffrey Voke Ojuederhie
+License-File: LICENSE
 Requires-Dist: pandas
 Requires-Dist: numpy
 Requires-Dist: scikit-learn
@@ -13,5 +14,8 @@ Requires-Dist: matplotlib
 Requires-Dist: setuptools
 Requires-Dist: kfp
 Requires-Dist: imbalanced-learn
+Requires-Dist: uvicorn
+Requires-Dist: streamlit
 Dynamic: author
+Dynamic: license-file
 Dynamic: requires-dist

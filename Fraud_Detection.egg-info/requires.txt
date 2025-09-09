@@ -9,3 +9,5 @@ matplotlib
 setuptools
 kfp
 imbalanced-learn
+uvicorn
+streamlit
