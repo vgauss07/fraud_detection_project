@@ -1,0 +1,21 @@
+2025-09-03 23:20:30,287 - INFO - Successfully read the YAML file
+2025-09-03 23:20:30,288 - INFO - Loading data from from RAW directory
+2025-09-03 23:20:30,288 - INFO - Loading data
+2025-09-03 23:20:42,900 - INFO - Loading data
+2025-09-03 23:20:45,507 - INFO - Start Data Processing
+2025-09-03 23:20:45,507 - INFO - Dropping the columns
+2025-09-03 23:20:51,437 - INFO - Applying Label Encoder
+2025-09-03 23:20:52,753 - INFO - Label Mappings are: 
+2025-09-03 23:20:52,754 - INFO - type: {'CASH_IN': np.int64(0), 'CASH_OUT': np.int64(1), 'DEBIT': np.int64(2), 'PAYMENT': np.int64(3), 'TRANSFER': np.int64(4)}
+2025-09-03 23:20:52,754 - INFO - isFraud: {np.int64(0): np.int64(0), np.int64(1): np.int64(1)}
+2025-09-03 23:20:52,754 - INFO - Start Data Processing
+2025-09-03 23:20:52,754 - INFO - Dropping the columns
+2025-09-03 23:20:53,552 - INFO - Applying Label Encoder
+2025-09-03 23:20:53,857 - INFO - Label Mappings are: 
+2025-09-03 23:20:53,857 - INFO - type: {'CASH_IN': np.int64(0), 'CASH_OUT': np.int64(1), 'DEBIT': np.int64(2), 'PAYMENT': np.int64(3), 'TRANSFER': np.int64(4)}
+2025-09-03 23:20:53,857 - INFO - isFraud: {np.int64(0): np.int64(0), np.int64(1): np.int64(1)}
+2025-09-03 23:20:53,858 - INFO - Handling the Imbalanced Data
+2025-09-03 23:20:57,460 - INFO - Data balanced successfully
+2025-09-03 23:20:57,510 - INFO - Handling the Imbalanced Data
+2025-09-03 23:20:58,207 - INFO - Data balanced successfully
+2025-09-03 23:20:58,231 - INFO - Starting Feature Selection Process

@@ -1,0 +1,22 @@
+2025-08-29 18:24:18,721 - INFO - Starting Model Training Pipeline
+2025-08-29 18:24:18,721 - INFO - Start MLFlow Experimentation Tracking
+2025-08-29 18:24:18,721 - INFO - Logging the training and testing the dataset to MLFLOW
+2025-08-29 18:24:19,445 - INFO - Loading data from artifacts/processed/processed_train.csv
+2025-08-29 18:24:19,445 - INFO - Loading data
+2025-08-29 18:24:24,846 - INFO - Loading data from artifacts/processed/processed_test.csv
+2025-08-29 18:24:24,846 - INFO - Loading data
+2025-08-29 18:24:26,373 - INFO - Data split done successfully
+2025-08-29 18:24:26,390 - INFO - Initializing our model
+2025-08-29 18:24:26,390 - INFO - Starting Hyperparameter Tuning
+2025-08-30 05:24:56,601 - INFO - Hyperparameter Tuning Completed
+2025-08-30 05:24:56,626 - INFO - Best parameters are: {'C': np.float64(3.0169824406616508), 'class_weight': None, 'l1_ratio': np.float64(0.751672600664168), 'max_iter': 772, 'penalty': 'l2', 'solver': 'saga'}
+2025-08-30 05:24:56,630 - INFO - Evaluating Model
+2025-08-30 05:25:00,121 - INFO - Accuracy Score: 0.9203569416511659
+2025-08-30 05:25:00,123 - INFO - Precision Score: 0.8658823062087707
+2025-08-30 05:25:00,125 - INFO - recall: 0.994799780944018
+2025-08-30 05:25:00,127 - INFO - f1 score: 0.9258750159280215
+2025-08-30 05:25:00,131 - INFO - Saving the Model
+2025-08-30 05:25:00,164 - INFO - Model saved to artifacts/models/random_forest.pkl
+2025-08-30 05:25:00,164 - INFO - Logging Model into MLFLOW
+2025-08-30 05:25:00,285 - INFO - Logging parameters and metrics to MLFLOW
+2025-08-30 05:25:00,348 - INFO - Model Training Successfully Completed
