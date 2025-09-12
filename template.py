@@ -15,6 +15,8 @@ list_of_files = [
     'config/__init__.py',
     'config/paths_config.py',
     'config/model_params.py',
+    'pipeline/__init__.py',
+    'pipeline/training_pipeline.py',
     'src/data_processing.py',
     'src/__init__.py',
     'src/logger.py',
